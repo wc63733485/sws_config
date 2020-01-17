@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: config 
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wc63733485/config-repo.git
+          username: wc63733485@163.com
+          password: ASDzxc1993
+
+server:
+  port: 9021
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://39.96.74.32:8761/eureka/
